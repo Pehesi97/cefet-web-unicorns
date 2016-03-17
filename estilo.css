@@ -1,0 +1,66 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+    font-weight:normal;
+}
+
+body {
+    font-family:"Arial";
+    font-size:14px;
+}
+
+h2 {
+    color:black;
+    font-size:24px;
+    font-family:"Times New Roman";
+    padding-top:10px;
+}
+
+#title {
+    font-family:"Kaushan Script", sans-serif;
+    font-size:36px;
+    color:white;
+}
+
+#subtitle {
+    font-family:"Times New Roman", serif;
+    font-size:24px;
+    color:white;
+    padding-top:0;
+}
+
+#cabecalho {
+    padding:20px 0px 13px 34px;
+    margin:0;
+    border:0;
+    background-color:#6175f0;
+}
+
+#verdade {
+    clear:left;
+}
+
+#cavalo {
+    float:left;
+    width:310px;
+    margin-right:13px;
+}
+
+.referencia {
+    font-style:italic;
+}
+
+#hoje {
+    padding-top:10px;
+    margin-right:25px;
+    background-color:#f8cef7;
+    border:1px solid #ff56fb;
+    float:right;
+    width:405px;
+    text-align:center;
+}
+
+#musica {
+    clear:left right;
+}
