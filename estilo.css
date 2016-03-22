@@ -52,15 +52,38 @@ h2 {
 }
 
 #hoje {
-    padding-top:10px;
-    margin-right:25px;
-    background-color:#f8cef7;
-    border:1px solid #ff56fb;
     float:right;
     width:405px;
+    box-sizing:border-box;
+    padding-top:10px;
+    margin-right:25px;
+    padding-left:35px;
+    padding-right:35px;
+    background-color:#f8cef7;
+    border:1px solid #ff56fb;
     text-align:center;
 }
 
+.hojeicon {
+    width:112px;
+}
+
 #musica {
-    clear:left right;
+    clear:left;
+    padding-left:12px;
+}
+
+.estrofe {
+    padding-left:34px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
 }
