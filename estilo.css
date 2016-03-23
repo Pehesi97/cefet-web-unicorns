@@ -70,11 +70,10 @@ h2 {
 
 #musica {
     clear:left;
-    padding-left:12px;
 }
 
 .estrofe {
-    padding-left:34px;
+    padding-left:46px;
 }
 
 ::-webkit-scrollbar-track {
@@ -89,7 +88,23 @@ h2 {
 }
 
 .destacado {
+    clear:left;
     color:#004a79;
     background-color:#c4caf3;
     clear:left;
+    padding-top:9px;
+    padding-bottom:12px;
+}
+
+.estrofesimples {
+    padding-left:12px;
+}
+
+.destacado > .estrofesimples {
+    padding-left:12px;
+    margin:0;
+}
+
+#musictitle {
+    padding-left:12px;
 }
